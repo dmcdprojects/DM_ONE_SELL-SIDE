@@ -1,6 +1,3 @@
-sketch.js
-
-
 /// 1. SELL-SIDE
 
 let t = 0;
