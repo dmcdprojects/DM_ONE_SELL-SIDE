@@ -5,13 +5,15 @@ let duration = 5; // duração total (ida e volta) em segundos
 let baseRadius = 140;
 
 function setup() {
-  createCanvas(300, 300);
+  let cnv = createCanvas(300, 300);
+  cnv.style('background', 'transparent'); // garante fundo transparente no canvas
   strokeWeight(1.2);
   noFill();
 }
 
 function draw() {
-  background(20);
+  // background(0); // removido para manter o fundo transparente
+  clear(); // limpa o canvas com transparência
   translate(width / 2, height / 2);
 
   // tempo "vai e volta" usando seno
