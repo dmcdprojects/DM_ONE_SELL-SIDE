@@ -2,7 +2,7 @@
 
 let t = 0;
 let duration = 5; // duração total (ida e volta) em segundos
-let baseRadius = 100;
+let baseRadius = 96;
 
 function setup() {
   let cnv = createCanvas(200, 200);
