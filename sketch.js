@@ -2,10 +2,10 @@
 
 let t = 0;
 let duration = 5; // duração total (ida e volta) em segundos
-let baseRadius = 140;
+let baseRadius = 100;
 
 function setup() {
-  let cnv = createCanvas(300, 300);
+  let cnv = createCanvas(200, 200);
   cnv.style('background', 'transparent'); // garante fundo transparente no canvas
   strokeWeight(1.2);
   noFill();
