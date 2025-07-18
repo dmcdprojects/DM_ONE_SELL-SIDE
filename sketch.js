@@ -1,8 +1,8 @@
 /// 1. SELL-SIDE
 
 let t = 0;
-let duration = 5; // duração total (ida e volta) em segundos
-let baseRadius = 96;
+let duration = 9; // duração total (ida e volta) em segundos
+let baseRadius = 75;
 
 function setup() {
   let cnv = createCanvas(200, 200);
@@ -26,7 +26,7 @@ function draw() {
 
   let easedT = easeInOutCubic(normalizedTime);
 
-  let minRadius = baseRadius * 0.6;
+  let minRadius = baseRadius * 0.75;
   let maxOffset = 40;
 
   let r1 = lerp(baseRadius, 0, easedT);
